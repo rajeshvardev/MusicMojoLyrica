@@ -22,15 +22,14 @@ public class ItunesSearchManager: NSObject {
     
     public func fetchMusicListFromiTunes(param:String) -> URLSessionDataTask
     {
-        let searchParam = param.replacingOccurrences(of: " ", with: "+")
-        let urlString = "https://itunes.apple.com/search"//?term=" + searchParam
+        let urlString = Constants.itunesUrl//?term=" + searchParam
         var urlComps = URLComponents(string:urlString)
-        let queryItems = [URLQueryItem(name: "term", value: searchParam)]
+        let queryItems = [URLQueryItem(name: Constants.itunesUrlTermParam, value: searchParam)]
         urlComps?.queryItems = queryItems
 
         let url = urlComps?.url
         var request = URLRequest(url: url!)
-        request.httpMethod = "GET"
+        request.httpMethod = Constants.methodGet
         // Excute HTTP Request
         
         var songs :[Song] = []
@@ -62,7 +61,7 @@ public class ItunesSearchManager: NSObject {
                     self.count =  (convertedJsonIntoDict["resultCount"] as? Int)!
                     //iterate songs
                     
-                    
+                    //TODO - move the keys to constants
                     for s in convertedJsonIntoDict["results"] as! NSArray
                     {
                         let song = Song()

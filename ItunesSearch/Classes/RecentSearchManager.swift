@@ -29,13 +29,13 @@ public class RecentSearchManager: NSObject {
     
     public func savePrefernce()
     {
-        UserDefaults.standard.set(self.recents, forKey: "recentSearches")
+        UserDefaults.standard.set(self.recents, forKey: Constants.recentSearchArchiveKey)
     }
     
     public func clearPreference()
     {
         self.recents = ""
-        UserDefaults.standard.set(self.recents, forKey: "recentSearches")
+        UserDefaults.standard.set(self.recents, forKey: Constants.recentSearchArchiveKey)
     }
     
     public func readPreference() -> [String]
@@ -44,13 +44,13 @@ public class RecentSearchManager: NSObject {
     }
     func getPreference()
     {
-        self.recents = (UserDefaults.standard.string(forKey: "recentSearches") != nil) ? UserDefaults.standard.string(forKey: "recentSearches")! : ""
-        self.recentSearches = recents.characters.split(separator: "#").map(String.init)
+        self.recents = (UserDefaults.standard.string(forKey: Constants.recentSearchArchiveKey) != nil) ? UserDefaults.standard.string(forKey: Constants.recentSearchArchiveKey)! : ""
+        self.recentSearches = recents.characters.split(separator: Constants.recentSearchArchiveSeperator).map(String.init)
     }
     public func addPrefernce(search:String)
     {
         self.recentSearches.append(search)
-        self.recents = self.recentSearches.joined(separator: "#")
+        self.recents = self.recentSearches.joined(separator: Constants.recentSearchArchiveSeperator)
         self.savePrefernce()
     }
     

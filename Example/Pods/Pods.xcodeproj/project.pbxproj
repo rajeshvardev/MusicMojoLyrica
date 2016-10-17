@@ -12,6 +12,7 @@
 		143F50C6D82CB3E24A4E4814EFA9334F /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254CF823B8F92C5EEA678E9EB7F4C130 /* libxmlHTMLNode.swift */; };
 		150E9A9BB0801889DC2B4723E1DF5128 /* xpath.h in Headers */ = {isa = PBXBuildFile; fileRef = 4569D86D4D7745D4CEDAEB52DBA35AB8 /* xpath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		151BE7543138AA55C91120075163A6CA /* xmlexports.h in Headers */ = {isa = PBXBuildFile; fileRef = C9714D6517C226A123BB0AACD77CA589 /* xmlexports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18DCFF5C1DB53B6D00CC623F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCFF5B1DB53B6D00CC623F /* Constants.swift */; };
 		1D03E77DD829A1763C55AADF797FA342 /* ItunesSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1729357D03036A832A6441DD147AC50 /* ItunesSearch-dummy.m */; };
 		1D74C7A8180F48E9B08AE053DE7FD565 /* ItunesSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345861CE2FA9623D67EC9D71B180A3C /* ItunesSearchManager.swift */; };
 		1E46904920F3036445EAEE9FC36BFE7E /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410BFE2E4A1E42FB7AF131C35DCF6C9 /* libxmlHTMLDocument.swift */; };
@@ -86,6 +87,7 @@
 		09C0DBD920C31FC10C4076B1FACDFA3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1345861CE2FA9623D67EC9D71B180A3C /* ItunesSearchManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItunesSearchManager.swift; sourceTree = "<group>"; };
 		186008AB1BC589B1F13A5B198CB777F0 /* Pods-ItunesSearch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ItunesSearch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		18DCFF5B1DB53B6D00CC623F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1BD3048D7350BF15FA626909F5524114 /* xmlstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlstring.h; path = Sources/libxml/xmlstring.h; sourceTree = "<group>"; };
 		1C5A14CDD23985C4FD0CD6F2EDA38921 /* HTMLtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLtree.h; path = Sources/libxml/HTMLtree.h; sourceTree = "<group>"; };
 		21258E7417CE7A98FC1673E44387C424 /* LyricsSearchManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LyricsSearchManager.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				DEA08BD1EAD4735097A116F83B1FA1A8 /* RecentSearchManager.swift */,
 				C1E7970C31487EF99BE37AEB91E9A77B /* Song.swift */,
 				47D70A8AE4C0F0701EF55F2389E53D30 /* Utils.swift */,
+				18DCFF5B1DB53B6D00CC623F /* Constants.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 				1D74C7A8180F48E9B08AE053DE7FD565 /* ItunesSearchManager.swift in Sources */,
 				49CDB3F0ED21CBE89F1150091B180544 /* LyricsSearchManager.swift in Sources */,
 				B2456787DA3B375256FE041D11FE9898 /* RecentSearchManager.swift in Sources */,
+				18DCFF5C1DB53B6D00CC623F /* Constants.swift in Sources */,
 				783912ED070593E8B9E245CB734989B8 /* Song.swift in Sources */,
 				8052BE003A6A59593B02D686074208A9 /* Utils.swift in Sources */,
 			);

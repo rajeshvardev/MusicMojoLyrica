@@ -22,10 +22,10 @@ public class LyricsSearchManager: NSObject {
     {
         //try to find a different api for the lyrics
         var task :URLSessionDataTask!
-        let htmlUrlString = "http://lyrics.wikia.com/api.php"//?func=getSong&artist=Tom+Waits&song=new+coat+of+paint&fmt=json"
+        let htmlUrlString = Constants.lyricsUrl//?func=getSong&artist=Tom+Waits&song=new+coat+of+paint&fmt=json"
         
         var htmlUrlComps = URLComponents(string:htmlUrlString)
-        let queryItems = [URLQueryItem(name: "func", value: "getSong"),URLQueryItem(name: "artist", value: artist),URLQueryItem(name: "song", value: song),URLQueryItem(name: "fmt", value: "json")]
+        let queryItems = [URLQueryItem(name: Constants.lyricsUrlFuncParam, value: Constants.lyricsUrlFuncParamValue),URLQueryItem(name: Constants.lyricsUrlArtishParam, value: artist),URLQueryItem(name: Constants.lyricsUrlSongParam, value: song),URLQueryItem(name: Constants.lyricsUrlFmtParam, value: Constants.lyricsUrlFuncParamValue)]
         htmlUrlComps?.queryItems = queryItems
         let htmlUrl = htmlUrlComps?.url
         do {
@@ -41,7 +41,7 @@ public class LyricsSearchManager: NSObject {
             let urlString = lyricsUrl!
             let url = URL(string: urlString)
             var request = URLRequest(url: url!)
-            request.httpMethod = "GET"
+            request.httpMethod = Constants.methodGet
             // Excute HTTP Request
             
             
@@ -68,7 +68,7 @@ public class LyricsSearchManager: NSObject {
                     if let document =   HTML(html: data!, encoding: .utf8)
                     {
                         
-                        let nodes = document.xpath("//div[contains(@class, 'lyricbox')]")
+                        let nodes = document.xpath(Constants.lyricsXPath)
                         /*
                          var  lyricsString = nodes.first?.text!
                          //for some reason the above block is giving text with escape chars
