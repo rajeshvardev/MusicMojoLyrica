@@ -1,19 +1,19 @@
 PODS:
-  - ItunesSearch (1.0.0):
-    - Kanna (~> 2.0.0)
   - Kanna (2.0.0)
+  - MusicMojoLyrica (1.0.0):
+    - Kanna (~> 2.0.0)
 
 DEPENDENCIES:
-  - ItunesSearch (from `../`)
+  - MusicMojoLyrica (from `../`)
 
 EXTERNAL SOURCES:
-  ItunesSearch:
+  MusicMojoLyrica:
     :path: ../
 
 SPEC CHECKSUMS:
-  ItunesSearch: 5d709317ab72bbe901c7f3e0a36a5bef1b79beaf
   Kanna: 9a6637f72f5c77fe9c045b1efb2a5bb074754af8
+  MusicMojoLyrica: a995badba8da4cc6363ede3f9253e53a69efa571
 
-PODFILE CHECKSUM: 17a2a7882ff9f3c8532d55ef18a23aa5ed2ea49a
+PODFILE CHECKSUM: b01b777f86d65a54d6f1edb7bdbeaf7a3cdadcda
 
 COCOAPODS: 1.1.0.rc.3

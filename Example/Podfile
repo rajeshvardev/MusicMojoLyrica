@@ -1,6 +1,6 @@
 use_frameworks!
 target 'ItunesSearch_Tests' do
-  pod 'ItunesSearch', :path => '../'
+  pod 'MusicMojoLyrica', :path => '../'
   
   
 end

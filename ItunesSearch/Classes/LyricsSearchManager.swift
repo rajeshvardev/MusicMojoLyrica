@@ -15,6 +15,11 @@ public protocol LyricsSearchManagerProtocol
     func lyricsError(error:Error)
 }
 
+enum LyricsError:Error
+{
+    case noLyrics
+}
+
 public class LyricsSearchManager: NSObject {
     
     public var delegate:LyricsSearchManagerProtocol!
@@ -69,15 +74,19 @@ public class LyricsSearchManager: NSObject {
                     {
                         
                         let nodes = document.xpath(Constants.lyricsXPath)
+                        if let lyricsString = nodes.first?.text!
+                        {
+                            
+                        }
+                        else
+                        {
+                            self.delegate.lyricsError(error: LyricsError.noLyrics)
+                        }
                         /*
                          var  lyricsString = nodes.first?.text!
                          //for some reason the above block is giving text with escape chars
                          */
                         // there is an issue of text formatting
-                        if nodes == nil
-                        {
-                            self.delegate.lyricsError(error: error!)
-                        }
                         for element in nodes {
                             let lyricsString = element.text!
                             self.delegate.lyricsFound(lyrics: lyricsString)
