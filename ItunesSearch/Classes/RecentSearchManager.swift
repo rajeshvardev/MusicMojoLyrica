@@ -45,7 +45,7 @@ public class RecentSearchManager: NSObject {
     func getPreference()
     {
         self.recents = (UserDefaults.standard.string(forKey: Constants.recentSearchArchiveKey) != nil) ? UserDefaults.standard.string(forKey: Constants.recentSearchArchiveKey)! : ""
-        self.recentSearches = recents.characters.split(separator: Constants.recentSearchArchiveSeperator).map(String.init)
+        self.recentSearches = recents.characters.split(separator: Constants.recentSearchArchiveSeperator.characters.first).map(String.init)
     }
     public func addPrefernce(search:String)
     {
