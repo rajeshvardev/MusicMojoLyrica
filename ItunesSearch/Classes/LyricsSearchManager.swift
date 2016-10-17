@@ -74,7 +74,7 @@ public class LyricsSearchManager: NSObject {
                          //for some reason the above block is giving text with escape chars
                          */
                         // there is an issue of text formatting
-                        if nodes.count == 0
+                        if nodes == nil
                         {
                             self.delegate.lyricsError(error: error)
                         }
