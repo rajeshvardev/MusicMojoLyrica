@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by RAJESH SUKUMARAN on 10/17/16.
-//
+//  Constants used in the library
 //
 
 import Foundation
