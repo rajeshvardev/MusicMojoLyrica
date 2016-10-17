@@ -24,11 +24,11 @@ public class ItunesSearchManager: NSObject {
     {
         let searchParam = param.replacingOccurrences(of: " ", with: "+")
         let urlString = "https://itunes.apple.com/search"//?term=" + searchParam
-        var UrlComps = URLComponents(string:urlString)
+        var urlComps = URLComponents(string:urlString)
         let queryItems = [URLQueryItem(name: "term", value: searchParam)]
-        UrlComps?.queryItems = queryItems
+        urlComps?.queryItems = queryItems
 
-        let url = URL(string: UrlComps?.url)
+        let url = urlComps?.url
         var request = URLRequest(url: url!)
         request.httpMethod = "GET"
         // Excute HTTP Request
