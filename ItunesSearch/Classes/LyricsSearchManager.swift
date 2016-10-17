@@ -76,7 +76,7 @@ public class LyricsSearchManager: NSObject {
                         // there is an issue of text formatting
                         if nodes == nil
                         {
-                            self.delegate.lyricsError(error: error)
+                            self.delegate.lyricsError(error: error!)
                         }
                         for element in nodes {
                             let lyricsString = element.text!
