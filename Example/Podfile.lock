@@ -1,0 +1,16 @@
+PODS:
+  - ItunesSearch (0.1.0)
+
+DEPENDENCIES:
+  - ItunesSearch (from `../`)
+
+EXTERNAL SOURCES:
+  ItunesSearch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ItunesSearch: d1c84c60a354e974b0d565217ee25ee48258f2e1
+
+PODFILE CHECKSUM: 17a2a7882ff9f3c8532d55ef18a23aa5ed2ea49a
+
+COCOAPODS: 1.1.0.rc.3

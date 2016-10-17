@@ -1,0 +1,22 @@
+{
+  "name": "ItunesSearch",
+  "version": "0.1.0",
+  "summary": "A short description of ItunesSearch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ItunesSearch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rajeshSukumaran@ForNationWide": "rajesh.sukumaran@photoninfotech.net"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ItunesSearch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ItunesSearch/Classes/**/*"
+}
