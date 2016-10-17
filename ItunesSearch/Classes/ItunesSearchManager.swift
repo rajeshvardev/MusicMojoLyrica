@@ -24,7 +24,7 @@ public class ItunesSearchManager: NSObject {
     {
         let urlString = Constants.itunesUrl//?term=" + searchParam
         var urlComps = URLComponents(string:urlString)
-        let queryItems = [URLQueryItem(name: Constants.itunesUrlTermParam, value: searchParam)]
+        let queryItems = [URLQueryItem(name: Constants.itunesUrlTermParam, value: param)]
         urlComps?.queryItems = queryItems
 
         let url = urlComps?.url
