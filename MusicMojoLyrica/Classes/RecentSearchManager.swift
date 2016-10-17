@@ -60,7 +60,7 @@ public class RecentSearchManager: NSObject {
     {
         if self.recentSearches.contains(search)
         {
-            self.recentSearches.remove(at: self.recentSearches.index(of: search))
+            self.recentSearches.remove(at: self.recentSearches.index(of: search)!)
         }
         self.recentSearches.append(search)
         self.recents = self.recentSearches.joined(separator: Constants.recentSearchArchiveSeperator)
