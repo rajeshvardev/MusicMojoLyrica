@@ -25,7 +25,7 @@ public class LyricsSearchManager: NSObject {
         let htmlUrlString = Constants.lyricsUrl//?func=getSong&artist=Tom+Waits&song=new+coat+of+paint&fmt=json"
         
         var htmlUrlComps = URLComponents(string:htmlUrlString)
-        let queryItems = [URLQueryItem(name: Constants.lyricsUrlFuncParam, value: Constants.lyricsUrlFuncParamValue),URLQueryItem(name: Constants.lyricsUrlArtishParam, value: artist),URLQueryItem(name: Constants.lyricsUrlSongParam, value: song),URLQueryItem(name: Constants.lyricsUrlFmtParam, value: Constants.lyricsUrlFuncParamValue)]
+        let queryItems = [URLQueryItem(name: Constants.lyricsUrlFuncParam, value: Constants.lyricsUrlFuncParamValue),URLQueryItem(name: Constants.lyricsUrlArtishParam, value: artist),URLQueryItem(name: Constants.lyricsUrlSongParam, value: song),URLQueryItem(name: Constants.lyricsUrlFmtParam, value: Constants.lyricsUrlFmtParamValue)]
         htmlUrlComps?.queryItems = queryItems
         let htmlUrl = htmlUrlComps?.url
         do {
