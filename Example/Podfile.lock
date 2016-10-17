@@ -1,5 +1,7 @@
 PODS:
-  - ItunesSearch (0.1.0)
+  - ItunesSearch (1.0.0):
+    - Kanna (~> 2.0.0)
+  - Kanna (2.0.0)
 
 DEPENDENCIES:
   - ItunesSearch (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ItunesSearch: d1c84c60a354e974b0d565217ee25ee48258f2e1
+  ItunesSearch: 5d709317ab72bbe901c7f3e0a36a5bef1b79beaf
+  Kanna: 9a6637f72f5c77fe9c045b1efb2a5bb074754af8
 
 PODFILE CHECKSUM: 17a2a7882ff9f3c8532d55ef18a23aa5ed2ea49a
 

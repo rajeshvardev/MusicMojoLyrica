@@ -7,63 +7,168 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		013B5B8C0ECC4FFC21D9A5B55444775D /* Pods-ItunesSearch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A3D439D54CA61E0175166843665986 /* Pods-ItunesSearch_Tests-dummy.m */; };
-		1C084F04B1DE199F1D32FDF2CF24FB84 /* Pods-ItunesSearch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B2FB5F64FC6E6F7220CB7CB884DBCC /* Pods-ItunesSearch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2925F5F15F61CB3AA9BDFAE4638EE293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		2C38FFFBC20FC3727D6A469356F8D966 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80514739453512BBE9F19B03F900D /* ReplaceMe.swift */; };
-		69CEEADFDA71F8452DA0632353C0A801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		7BFEBCB8507EEC24227AFD200613ABCB /* ItunesSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1729357D03036A832A6441DD147AC50 /* ItunesSearch-dummy.m */; };
-		F72C8E0CC880D830CE3ED06D9CED0B91 /* ItunesSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E396A4F0DBB92C27F504BB55AFE58D67 /* ItunesSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03E7D6A0B53D7608C95C599EE0D6F115 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = FD846396CB0C4D4C1E4D8D6C7BABCFE2 /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05BFCBB478473A4AFAF606A88DDA27BA /* xlink.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF0465C707C1A83B96A05412A63BC41 /* xlink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143F50C6D82CB3E24A4E4814EFA9334F /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254CF823B8F92C5EEA678E9EB7F4C130 /* libxmlHTMLNode.swift */; };
+		150E9A9BB0801889DC2B4723E1DF5128 /* xpath.h in Headers */ = {isa = PBXBuildFile; fileRef = 4569D86D4D7745D4CEDAEB52DBA35AB8 /* xpath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		151BE7543138AA55C91120075163A6CA /* xmlexports.h in Headers */ = {isa = PBXBuildFile; fileRef = C9714D6517C226A123BB0AACD77CA589 /* xmlexports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D03E77DD829A1763C55AADF797FA342 /* ItunesSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1729357D03036A832A6441DD147AC50 /* ItunesSearch-dummy.m */; };
+		1D74C7A8180F48E9B08AE053DE7FD565 /* ItunesSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345861CE2FA9623D67EC9D71B180A3C /* ItunesSearchManager.swift */; };
+		1E46904920F3036445EAEE9FC36BFE7E /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410BFE2E4A1E42FB7AF131C35DCF6C9 /* libxmlHTMLDocument.swift */; };
+		24375166367824ED8A52E6021DDF107D /* xmlautomata.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAC5EDC8D07FC829BDD2694446CE82E /* xmlautomata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6D866E889C6DD9F264E437EDBED4F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C0DBD920C31FC10C4076B1FACDFA3B /* Foundation.framework */; };
+		31724608AE934FE246B5380F3494540B /* HTMLtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5A14CDD23985C4FD0CD6F2EDA38921 /* HTMLtree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31B60C95885F5A4E53FD7AC598362852 /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 326F654BA0CF11EAB733466C9A90E195 /* list.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C252BC77E36FC1C67F515CDFEC8F6E6 /* Pods-ItunesSearch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B2FB5F64FC6E6F7220CB7CB884DBCC /* Pods-ItunesSearch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC9C51B171E73EFBFC14BCC045FD65A /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = 4485603EA16D9214011B6FD4C68AAB32 /* dict.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45349EB0A9FEF3D6D32B6D73FACC4F5F /* Pods-ItunesSearch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A3D439D54CA61E0175166843665986 /* Pods-ItunesSearch_Tests-dummy.m */; };
+		49CDB3F0ED21CBE89F1150091B180544 /* LyricsSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21258E7417CE7A98FC1673E44387C424 /* LyricsSearchManager.swift */; };
+		4DA2B45D500F60C2E9F3D61F2F75C29F /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993619B3F90B45E77E3B04E318CDCD38 /* Kanna.framework */; };
+		5A8051ADA00BC5A27CD55348B983BA99 /* xmlmemory.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB6DF824A641A9ED92DF53DE4891994 /* xmlmemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6193517B930DD404D81EC240F8D1C1C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C0DBD920C31FC10C4076B1FACDFA3B /* Foundation.framework */; };
+		685DE9260D136D84F2B833F30B182875 /* Kanna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 307C437335D5CB687DBF51D2812CAA3E /* Kanna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DA105EC458FA9105DA8486864349879 /* entities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8760869530E3BC8D096AD5C0FC1E210A /* entities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783912ED070593E8B9E245CB734989B8 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7970C31487EF99BE37AEB91E9A77B /* Song.swift */; };
+		8052BE003A6A59593B02D686074208A9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D70A8AE4C0F0701EF55F2389E53D30 /* Utils.swift */; };
+		8870FFF27846EC3536F45B36C93E6B72 /* SAX.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D576009C727A898B8BFD18F07F25CD /* SAX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		906545D1143F1F14A53409EB717B6309 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973A14FF39F453263B016432BD8AF064 /* Kanna.swift */; };
+		9E27E51546A7FF35A4996FE0C1E8F59E /* valid.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF9934D73A383D7D519C7BFE64BE684 /* valid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A303861A380F4BB0EADE68BC6F72AB34 /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 03E465286C3DAFE9C3FD0E315D18BB6C /* globals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A879C7B94CBEB69FD26898D82A0BDAD2 /* xmlstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD3048D7350BF15FA626909F5524114 /* xmlstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2456787DA3B375256FE041D11FE9898 /* RecentSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA08BD1EAD4735097A116F83B1FA1A8 /* RecentSearchManager.swift */; };
+		B2CCFC1104138C6FA465EE5E6CC78C01 /* ItunesSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E396A4F0DBB92C27F504BB55AFE58D67 /* ItunesSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FD9C19A970B77ECD0AEE40FA6BC7D7 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D274D1D51BA1761D1909BDC5AC12C975 /* CSS.swift */; };
+		C59968AC0C1A583571D8F4CB1377EBF1 /* threads.h in Headers */ = {isa = PBXBuildFile; fileRef = A574E6C0C690A505032931300ADF0473 /* threads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD247213D7E01C9F87681B66D3CD75C7 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 41257F6FD7E11EA2C399B926D3D6EA31 /* hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D66AE1980EF054FA9EE82D37DE6373A4 /* xmlIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA7163FFF01083862DFC1AAD1B54DC6 /* xmlIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE402958EF32F9A3D250E501C9F64B3D /* xmlerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 824DDDB803D68A4BCF13ABA7DEF26F35 /* xmlerror.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE61A34E56C3ACC88345500DDD98823B /* HTMLparser.h in Headers */ = {isa = PBXBuildFile; fileRef = C7BBAB6EA23744CD8FCDDBA06564DFAE /* HTMLparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFF222D02B69EF0A3428295AADC32210 /* Kanna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A8F55A625302FB09803C8F11ED532 /* Kanna-dummy.m */; };
+		E19858B6E8D66AAB149BE7C0EECE0875 /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EC7E4A71096E4B74DA620107CDEC45 /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E410CC223A8980E04E3B9F0A60B18D62 /* SAX2.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D7702ECBB8452CF6EDDC0C264DBF47 /* SAX2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E48CDCA315CBEFA1C88547BCA1C68A77 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3136843B0023C34BA8D59E6A9CD3A4 /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF5FFC0693B93CC0B77FE9CCA0A421A3 /* xpathInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = FD123AAF26584B9BE9430F67C248CC01 /* xpathInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF65D10E68B741A8F03A14D2CEACA30D /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA04CCA163DB022E3168D67A635C44 /* libxmlParserOption.swift */; };
+		EFF3D3CE6CAB48DC1A51048C74D65464 /* xmlversion.h in Headers */ = {isa = PBXBuildFile; fileRef = E63ACB6325E2DC062844AF0CAF30C09D /* xmlversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03D8FD12E17330BD06B8D05EF1861C7 /* xmlregexp.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE5E741AA0ED17176672AEC40FCC55B /* xmlregexp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE09E91AEEC73E40C87BDEA797B1A1D /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 96255A80560200A413B9E0FCF158E51D /* encoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFE6C78E89C0A6A4722E8C7672E1C8D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C0DBD920C31FC10C4076B1FACDFA3B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AE26F55EB5F9511949665EE739D6DACA /* PBXContainerItemProxy */ = {
+		1D2223C0E549821541CEB001798ED07F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F2711800DF085B4F87A25B6CB51FA811;
+			remoteGlobalIDString = C3FB36535908AA8A3351114732F4D659;
 			remoteInfo = ItunesSearch;
+		};
+		78800E5E98250132BA8E59B8E7713A53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF415F619E9DDF8BD2182AFA3BAD4BF9;
+			remoteInfo = Kanna;
+		};
+		9C052758A5E7D31787210658F7F52BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF415F619E9DDF8BD2182AFA3BAD4BF9;
+			remoteInfo = Kanna;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0450065A9A049AC3881B187A6B2B0CF9 /* ItunesSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ItunesSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B0BD228103DCC13BC1472A9A1F7A38 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E465286C3DAFE9C3FD0E315D18BB6C /* globals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = globals.h; path = Sources/libxml/globals.h; sourceTree = "<group>"; };
 		05A3D439D54CA61E0175166843665986 /* Pods-ItunesSearch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ItunesSearch_Tests-dummy.m"; sourceTree = "<group>"; };
+		09C0DBD920C31FC10C4076B1FACDFA3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1345861CE2FA9623D67EC9D71B180A3C /* ItunesSearchManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItunesSearchManager.swift; sourceTree = "<group>"; };
 		186008AB1BC589B1F13A5B198CB777F0 /* Pods-ItunesSearch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ItunesSearch_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		49B80514739453512BBE9F19B03F900D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		1BD3048D7350BF15FA626909F5524114 /* xmlstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlstring.h; path = Sources/libxml/xmlstring.h; sourceTree = "<group>"; };
+		1C5A14CDD23985C4FD0CD6F2EDA38921 /* HTMLtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLtree.h; path = Sources/libxml/HTMLtree.h; sourceTree = "<group>"; };
+		21258E7417CE7A98FC1673E44387C424 /* LyricsSearchManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LyricsSearchManager.swift; sourceTree = "<group>"; };
+		24D7702ECBB8452CF6EDDC0C264DBF47 /* SAX2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAX2.h; path = Sources/libxml/SAX2.h; sourceTree = "<group>"; };
+		254CF823B8F92C5EEA678E9EB7F4C130 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		2BAC5EDC8D07FC829BDD2694446CE82E /* xmlautomata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlautomata.h; path = Sources/libxml/xmlautomata.h; sourceTree = "<group>"; };
+		2E3136843B0023C34BA8D59E6A9CD3A4 /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = Sources/libxml/parser.h; sourceTree = "<group>"; };
+		307C437335D5CB687DBF51D2812CAA3E /* Kanna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-umbrella.h"; sourceTree = "<group>"; };
+		326F654BA0CF11EAB733466C9A90E195 /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = Sources/libxml/list.h; sourceTree = "<group>"; };
+		3BA7163FFF01083862DFC1AAD1B54DC6 /* xmlIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlIO.h; path = Sources/libxml/xmlIO.h; sourceTree = "<group>"; };
+		41257F6FD7E11EA2C399B926D3D6EA31 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = Sources/libxml/hash.h; sourceTree = "<group>"; };
+		4485603EA16D9214011B6FD4C68AAB32 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = Sources/libxml/dict.h; sourceTree = "<group>"; };
+		4569D86D4D7745D4CEDAEB52DBA35AB8 /* xpath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpath.h; path = Sources/libxml/xpath.h; sourceTree = "<group>"; };
+		47D70A8AE4C0F0701EF55F2389E53D30 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5A72E953759D60F80DE6E0573EEDCE41 /* ItunesSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ItunesSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF9934D73A383D7D519C7BFE64BE684 /* valid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = valid.h; path = Sources/libxml/valid.h; sourceTree = "<group>"; };
 		5D6B7450B41151D6F18E717A9458CE03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60B2FB5F64FC6E6F7220CB7CB884DBCC /* Pods-ItunesSearch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ItunesSearch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		62D576009C727A898B8BFD18F07F25CD /* SAX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAX.h; path = Sources/libxml/SAX.h; sourceTree = "<group>"; };
 		6645DA6883E40436D381B61604F37DAE /* Pods-ItunesSearch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ItunesSearch_Tests-resources.sh"; sourceTree = "<group>"; };
 		7D8994BA76FF787BBBF6CB5A7C292F37 /* ItunesSearch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ItunesSearch-prefix.pch"; sourceTree = "<group>"; };
-		862870CF45F453613B0EB100558ACEEF /* Pods_ItunesSearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItunesSearch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		824DDDB803D68A4BCF13ABA7DEF26F35 /* xmlerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlerror.h; path = Sources/libxml/xmlerror.h; sourceTree = "<group>"; };
+		8760869530E3BC8D096AD5C0FC1E210A /* entities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entities.h; path = Sources/libxml/entities.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959A8F55A625302FB09803C8F11ED532 /* Kanna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-dummy.m"; sourceTree = "<group>"; };
+		96255A80560200A413B9E0FCF158E51D /* encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encoding.h; path = Sources/libxml/encoding.h; sourceTree = "<group>"; };
 		97120DAD818524EDC708E4A52C51C654 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973A14FF39F453263B016432BD8AF064 /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna.swift; sourceTree = "<group>"; };
+		98EC7E4A71096E4B74DA620107CDEC45 /* Kanna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kanna.h; path = Sources/Kanna.h; sourceTree = "<group>"; };
+		993619B3F90B45E77E3B04E318CDCD38 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F5B5ACA36A9B56B1E15948E3EEF255 /* Pods_ItunesSearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItunesSearch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A574E6C0C690A505032931300ADF0473 /* threads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = threads.h; path = Sources/libxml/threads.h; sourceTree = "<group>"; };
 		B1729357D03036A832A6441DD147AC50 /* ItunesSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ItunesSearch-dummy.m"; sourceTree = "<group>"; };
 		B1C60064A6F379DEF6E2FE7913D0B08E /* Pods-ItunesSearch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ItunesSearch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B410BFE2E4A1E42FB7AF131C35DCF6C9 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
+		B55FE6C62DDE1937A23329F7DE9D7AA2 /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Kanna.modulemap; sourceTree = "<group>"; };
 		B8CA32784AD673AA2E62E46706F39B70 /* Pods-ItunesSearch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ItunesSearch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E7970C31487EF99BE37AEB91E9A77B /* Song.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		C43E9261C5763271B2231B2D35ECA625 /* Pods-ItunesSearch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ItunesSearch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C7BBAB6EA23744CD8FCDDBA06564DFAE /* HTMLparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLparser.h; path = Sources/libxml/HTMLparser.h; sourceTree = "<group>"; };
+		C9714D6517C226A123BB0AACD77CA589 /* xmlexports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlexports.h; path = Sources/libxml/xmlexports.h; sourceTree = "<group>"; };
+		CDF0465C707C1A83B96A05412A63BC41 /* xlink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xlink.h; path = Sources/libxml/xlink.h; sourceTree = "<group>"; };
+		D274D1D51BA1761D1909BDC5AC12C975 /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/CSS.swift; sourceTree = "<group>"; };
+		DEA08BD1EAD4735097A116F83B1FA1A8 /* RecentSearchManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecentSearchManager.swift; sourceTree = "<group>"; };
+		E23B7180DE2AFBF2A36FF2E72E0D1261 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E249E0CB6F23303F309CF517634147C4 /* ItunesSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ItunesSearch.modulemap; sourceTree = "<group>"; };
 		E396A4F0DBB92C27F504BB55AFE58D67 /* ItunesSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ItunesSearch-umbrella.h"; sourceTree = "<group>"; };
 		E60AA4CD90049477EF809964B117AA02 /* Pods-ItunesSearch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ItunesSearch_Tests.modulemap"; sourceTree = "<group>"; };
+		E63ACB6325E2DC062844AF0CAF30C09D /* xmlversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlversion.h; path = Sources/libxml/xmlversion.h; sourceTree = "<group>"; };
 		E8026AD6BE4F3604948FF755CEC84B24 /* ItunesSearch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ItunesSearch.xcconfig; sourceTree = "<group>"; };
 		E8A9B3E2FDD683F757950ED559F5A201 /* Pods-ItunesSearch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ItunesSearch_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		ECBDBFB4BDD7213CC2599A077703318B /* Kanna.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
+		F5AA04CCA163DB022E3168D67A635C44 /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/libxmlParserOption.swift; sourceTree = "<group>"; };
+		FB739B1CCADE4786AABB89FB76A0BEC3 /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
+		FCB6DF824A641A9ED92DF53DE4891994 /* xmlmemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlmemory.h; path = Sources/libxml/xmlmemory.h; sourceTree = "<group>"; };
+		FCE5E741AA0ED17176672AEC40FCC55B /* xmlregexp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlregexp.h; path = Sources/libxml/xmlregexp.h; sourceTree = "<group>"; };
+		FD123AAF26584B9BE9430F67C248CC01 /* xpathInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpathInternals.h; path = Sources/libxml/xpathInternals.h; sourceTree = "<group>"; };
+		FD846396CB0C4D4C1E4D8D6C7BABCFE2 /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = Sources/libxml/tree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0333D1697D463975E42895C9FACFCDA8 /* Frameworks */ = {
+		2ABE9C56BC1689EF4A834C4558B514E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2925F5F15F61CB3AA9BDFAE4638EE293 /* Foundation.framework in Frameworks */,
+				FFE6C78E89C0A6A4722E8C7672E1C8D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E1D1A32BBB892D526D88F20351A276F /* Frameworks */ = {
+		8DB750A28FC854F31861A80B754309D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CEEADFDA71F8452DA0632353C0A801 /* Foundation.framework in Frameworks */,
+				2E6D866E889C6DD9F264E437EDBED4F0 /* Foundation.framework in Frameworks */,
+				4DA2B45D500F60C2E9F3D61F2F75C29F /* Kanna.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1654FCCB6E13DCA54473666A47904A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6193517B930DD404D81EC240F8D1C1C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,11 +186,20 @@
 		125E2E4FC2BEAA2C4F43407D983FF210 /* ItunesSearch */ = {
 			isa = PBXGroup;
 			children = (
-				EE63573DC3CEB24A1555DAB98E6E76A5 /* ItunesSearch */,
+				D25FE376243534636979E4CF02D41FE0 /* ItunesSearch */,
 				34664EBAA91B6BDAC2D5C963D62F3FE3 /* Support Files */,
 			);
 			name = ItunesSearch;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		1B6FFBCF6FBBAEACDFAD5D5C4D3EE4EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				993619B3F90B45E77E3B04E318CDCD38 /* Kanna.framework */,
+				AF8BCCB10D765CAE9062995106DFE328 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		34664EBAA91B6BDAC2D5C963D62F3FE3 /* Support Files */ = {
@@ -102,12 +216,16 @@
 			path = "Example/Pods/Target Support Files/ItunesSearch";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		4D4595DB7ADD5825B60F3B51607CE3F0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				1345861CE2FA9623D67EC9D71B180A3C /* ItunesSearchManager.swift */,
+				21258E7417CE7A98FC1673E44387C424 /* LyricsSearchManager.swift */,
+				DEA08BD1EAD4735097A116F83B1FA1A8 /* RecentSearchManager.swift */,
+				C1E7970C31487EF99BE37AEB91E9A77B /* Song.swift */,
+				47D70A8AE4C0F0701EF55F2389E53D30 /* Utils.swift */,
 			);
-			name = iOS;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -115,19 +233,11 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				9C7ADC81CDC9D92C041B8BFF97E59B21 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				899E5E1495112790F19864C0A00155C7 /* Products */,
+				1B6FFBCF6FBBAEACDFAD5D5C4D3EE4EA /* Frameworks */,
+				E67B03BB53D74290E6F5C75A448F3C60 /* Pods */,
+				E582916234CE2401BE2A2CFBA5E21D5D /* Products */,
 				01AEF87C35534D681907DADDDDCD2E25 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		899E5E1495112790F19864C0A00155C7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0450065A9A049AC3881B187A6B2B0CF9 /* ItunesSearch.framework */,
-				862870CF45F453613B0EB100558ACEEF /* Pods_ItunesSearch_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9C7ADC81CDC9D92C041B8BFF97E59B21 /* Development Pods */ = {
@@ -138,28 +248,77 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		AF8BCCB10D765CAE9062995106DFE328 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				09C0DBD920C31FC10C4076B1FACDFA3B /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		EE63573DC3CEB24A1555DAB98E6E76A5 /* ItunesSearch */ = {
+		D25FE376243534636979E4CF02D41FE0 /* ItunesSearch */ = {
 			isa = PBXGroup;
 			children = (
-				F8FCDCA55D83841FE07000DF4523CC5F /* Classes */,
+				4D4595DB7ADD5825B60F3B51607CE3F0 /* Classes */,
 			);
 			path = ItunesSearch;
 			sourceTree = "<group>";
 		};
-		F8FCDCA55D83841FE07000DF4523CC5F /* Classes */ = {
+		E0C79410AAB11B4CD983C858E7BFD6E7 /* Kanna */ = {
 			isa = PBXGroup;
 			children = (
-				49B80514739453512BBE9F19B03F900D /* ReplaceMe.swift */,
+				D274D1D51BA1761D1909BDC5AC12C975 /* CSS.swift */,
+				4485603EA16D9214011B6FD4C68AAB32 /* dict.h */,
+				96255A80560200A413B9E0FCF158E51D /* encoding.h */,
+				8760869530E3BC8D096AD5C0FC1E210A /* entities.h */,
+				03E465286C3DAFE9C3FD0E315D18BB6C /* globals.h */,
+				41257F6FD7E11EA2C399B926D3D6EA31 /* hash.h */,
+				C7BBAB6EA23744CD8FCDDBA06564DFAE /* HTMLparser.h */,
+				1C5A14CDD23985C4FD0CD6F2EDA38921 /* HTMLtree.h */,
+				98EC7E4A71096E4B74DA620107CDEC45 /* Kanna.h */,
+				973A14FF39F453263B016432BD8AF064 /* Kanna.swift */,
+				B410BFE2E4A1E42FB7AF131C35DCF6C9 /* libxmlHTMLDocument.swift */,
+				254CF823B8F92C5EEA678E9EB7F4C130 /* libxmlHTMLNode.swift */,
+				F5AA04CCA163DB022E3168D67A635C44 /* libxmlParserOption.swift */,
+				326F654BA0CF11EAB733466C9A90E195 /* list.h */,
+				2E3136843B0023C34BA8D59E6A9CD3A4 /* parser.h */,
+				62D576009C727A898B8BFD18F07F25CD /* SAX.h */,
+				24D7702ECBB8452CF6EDDC0C264DBF47 /* SAX2.h */,
+				A574E6C0C690A505032931300ADF0473 /* threads.h */,
+				FD846396CB0C4D4C1E4D8D6C7BABCFE2 /* tree.h */,
+				5CF9934D73A383D7D519C7BFE64BE684 /* valid.h */,
+				CDF0465C707C1A83B96A05412A63BC41 /* xlink.h */,
+				2BAC5EDC8D07FC829BDD2694446CE82E /* xmlautomata.h */,
+				824DDDB803D68A4BCF13ABA7DEF26F35 /* xmlerror.h */,
+				C9714D6517C226A123BB0AACD77CA589 /* xmlexports.h */,
+				3BA7163FFF01083862DFC1AAD1B54DC6 /* xmlIO.h */,
+				FCB6DF824A641A9ED92DF53DE4891994 /* xmlmemory.h */,
+				FCE5E741AA0ED17176672AEC40FCC55B /* xmlregexp.h */,
+				1BD3048D7350BF15FA626909F5524114 /* xmlstring.h */,
+				E63ACB6325E2DC062844AF0CAF30C09D /* xmlversion.h */,
+				4569D86D4D7745D4CEDAEB52DBA35AB8 /* xpath.h */,
+				FD123AAF26584B9BE9430F67C248CC01 /* xpathInternals.h */,
+				FA34A920D56BE2001399F8C5AC0AEE15 /* Support Files */,
 			);
-			path = Classes;
+			path = Kanna;
+			sourceTree = "<group>";
+		};
+		E582916234CE2401BE2A2CFBA5E21D5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A72E953759D60F80DE6E0573EEDCE41 /* ItunesSearch.framework */,
+				01B0BD228103DCC13BC1472A9A1F7A38 /* Kanna.framework */,
+				A3F5B5ACA36A9B56B1E15948E3EEF255 /* Pods_ItunesSearch_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E67B03BB53D74290E6F5C75A448F3C60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0C79410AAB11B4CD983C858E7BFD6E7 /* Kanna */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F912191640C3EB036F680473F2580C89 /* Pods-ItunesSearch_Tests */ = {
@@ -180,61 +339,128 @@
 			path = "Target Support Files/Pods-ItunesSearch_Tests";
 			sourceTree = "<group>";
 		};
+		FA34A920D56BE2001399F8C5AC0AEE15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23B7180DE2AFBF2A36FF2E72E0D1261 /* Info.plist */,
+				B55FE6C62DDE1937A23329F7DE9D7AA2 /* Kanna.modulemap */,
+				ECBDBFB4BDD7213CC2599A077703318B /* Kanna.xcconfig */,
+				959A8F55A625302FB09803C8F11ED532 /* Kanna-dummy.m */,
+				FB739B1CCADE4786AABB89FB76A0BEC3 /* Kanna-prefix.pch */,
+				307C437335D5CB687DBF51D2812CAA3E /* Kanna-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kanna";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		32574819D124C71C583C7400DE670E9A /* Headers */ = {
+		8B059AF4C6D5613AE1C1D189A6B0FD80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C084F04B1DE199F1D32FDF2CF24FB84 /* Pods-ItunesSearch_Tests-umbrella.h in Headers */,
+				B2CCFC1104138C6FA465EE5E6CC78C01 /* ItunesSearch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7191CA18230B3F5C277333DC2EBB2D39 /* Headers */ = {
+		93D093535337CF016AC7B762C1A0E8A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72C8E0CC880D830CE3ED06D9CED0B91 /* ItunesSearch-umbrella.h in Headers */,
+				3C252BC77E36FC1C67F515CDFEC8F6E6 /* Pods-ItunesSearch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B135A2479D9A46B4C3B62F6C01B975 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC9C51B171E73EFBFC14BCC045FD65A /* dict.h in Headers */,
+				FAE09E91AEEC73E40C87BDEA797B1A1D /* encoding.h in Headers */,
+				6DA105EC458FA9105DA8486864349879 /* entities.h in Headers */,
+				A303861A380F4BB0EADE68BC6F72AB34 /* globals.h in Headers */,
+				CD247213D7E01C9F87681B66D3CD75C7 /* hash.h in Headers */,
+				DE61A34E56C3ACC88345500DDD98823B /* HTMLparser.h in Headers */,
+				31724608AE934FE246B5380F3494540B /* HTMLtree.h in Headers */,
+				685DE9260D136D84F2B833F30B182875 /* Kanna-umbrella.h in Headers */,
+				E19858B6E8D66AAB149BE7C0EECE0875 /* Kanna.h in Headers */,
+				31B60C95885F5A4E53FD7AC598362852 /* list.h in Headers */,
+				E48CDCA315CBEFA1C88547BCA1C68A77 /* parser.h in Headers */,
+				8870FFF27846EC3536F45B36C93E6B72 /* SAX.h in Headers */,
+				E410CC223A8980E04E3B9F0A60B18D62 /* SAX2.h in Headers */,
+				C59968AC0C1A583571D8F4CB1377EBF1 /* threads.h in Headers */,
+				03E7D6A0B53D7608C95C599EE0D6F115 /* tree.h in Headers */,
+				9E27E51546A7FF35A4996FE0C1E8F59E /* valid.h in Headers */,
+				05BFCBB478473A4AFAF606A88DDA27BA /* xlink.h in Headers */,
+				24375166367824ED8A52E6021DDF107D /* xmlautomata.h in Headers */,
+				DE402958EF32F9A3D250E501C9F64B3D /* xmlerror.h in Headers */,
+				151BE7543138AA55C91120075163A6CA /* xmlexports.h in Headers */,
+				D66AE1980EF054FA9EE82D37DE6373A4 /* xmlIO.h in Headers */,
+				5A8051ADA00BC5A27CD55348B983BA99 /* xmlmemory.h in Headers */,
+				F03D8FD12E17330BD06B8D05EF1861C7 /* xmlregexp.h in Headers */,
+				A879C7B94CBEB69FD26898D82A0BDAD2 /* xmlstring.h in Headers */,
+				EFF3D3CE6CAB48DC1A51048C74D65464 /* xmlversion.h in Headers */,
+				150E9A9BB0801889DC2B4723E1DF5128 /* xpath.h in Headers */,
+				EF5FFC0693B93CC0B77FE9CCA0A421A3 /* xpathInternals.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F2711800DF085B4F87A25B6CB51FA811 /* ItunesSearch */ = {
+		B8DBC62B855BB6CBC3BE80CCDF8171B1 /* Pods-ItunesSearch_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B41EABAF3D4A00A5968CFDB3FFEC7E8F /* Build configuration list for PBXNativeTarget "ItunesSearch" */;
+			buildConfigurationList = A6A58C7D640FE4F57C0D3D059D1A9EB9 /* Build configuration list for PBXNativeTarget "Pods-ItunesSearch_Tests" */;
 			buildPhases = (
-				AB205A67F293E799583D5E37C1319FE6 /* Sources */,
-				0333D1697D463975E42895C9FACFCDA8 /* Frameworks */,
-				7191CA18230B3F5C277333DC2EBB2D39 /* Headers */,
+				5C6F11B811E78E709FC5CB2C1D379600 /* Sources */,
+				DB1654FCCB6E13DCA54473666A47904A /* Frameworks */,
+				93D093535337CF016AC7B762C1A0E8A7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = ItunesSearch;
-			productName = ItunesSearch;
-			productReference = 0450065A9A049AC3881B187A6B2B0CF9 /* ItunesSearch.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FA9C6CE4A0CEF13605AEC2CC70554911 /* Pods-ItunesSearch_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D54141B45AE1E9B7D4CEFE921F8448E5 /* Build configuration list for PBXNativeTarget "Pods-ItunesSearch_Tests" */;
-			buildPhases = (
-				E0A6F080FDCA8595327C4D986BC153AC /* Sources */,
-				5E1D1A32BBB892D526D88F20351A276F /* Frameworks */,
-				32574819D124C71C583C7400DE670E9A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC2EE3B3B97C81D48B4C1516C26A5973 /* PBXTargetDependency */,
+				A95C4B592E7B52393A3433A4795263D4 /* PBXTargetDependency */,
+				EE9FF0C3E7D34B5A8476D2B0EA87A14C /* PBXTargetDependency */,
 			);
 			name = "Pods-ItunesSearch_Tests";
 			productName = "Pods-ItunesSearch_Tests";
-			productReference = 862870CF45F453613B0EB100558ACEEF /* Pods_ItunesSearch_Tests.framework */;
+			productReference = A3F5B5ACA36A9B56B1E15948E3EEF255 /* Pods_ItunesSearch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3FB36535908AA8A3351114732F4D659 /* ItunesSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7960CC2D8603EC511CB5C00B725484 /* Build configuration list for PBXNativeTarget "ItunesSearch" */;
+			buildPhases = (
+				29DF744484F90E90886B2AC7772B3DC1 /* Sources */,
+				8DB750A28FC854F31861A80B754309D6 /* Frameworks */,
+				8B059AF4C6D5613AE1C1D189A6B0FD80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AD2C3C38A446E7E9C09C601B6880CFD /* PBXTargetDependency */,
+			);
+			name = ItunesSearch;
+			productName = ItunesSearch;
+			productReference = 5A72E953759D60F80DE6E0573EEDCE41 /* ItunesSearch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF415F619E9DDF8BD2182AFA3BAD4BF9 /* Kanna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86EF00DC340C0BDE270C2687BD3856F3 /* Build configuration list for PBXNativeTarget "Kanna" */;
+			buildPhases = (
+				6A3D9E97CFD615EE2F8BDAD9CDFC30A0 /* Sources */,
+				2ABE9C56BC1689EF4A834C4558B514E4 /* Frameworks */,
+				E3B135A2479D9A46B4C3B62F6C01B975 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kanna;
+			productName = Kanna;
+			productReference = 01B0BD228103DCC13BC1472A9A1F7A38 /* Kanna.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -245,14 +471,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					F2711800DF085B4F87A25B6CB51FA811 = {
-						LastSwiftMigration = 0800;
-					};
-					FA9C6CE4A0CEF13605AEC2CC70554911 = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -262,49 +480,79 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 899E5E1495112790F19864C0A00155C7 /* Products */;
+			productRefGroup = E582916234CE2401BE2A2CFBA5E21D5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2711800DF085B4F87A25B6CB51FA811 /* ItunesSearch */,
-				FA9C6CE4A0CEF13605AEC2CC70554911 /* Pods-ItunesSearch_Tests */,
+				C3FB36535908AA8A3351114732F4D659 /* ItunesSearch */,
+				EF415F619E9DDF8BD2182AFA3BAD4BF9 /* Kanna */,
+				B8DBC62B855BB6CBC3BE80CCDF8171B1 /* Pods-ItunesSearch_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB205A67F293E799583D5E37C1319FE6 /* Sources */ = {
+		29DF744484F90E90886B2AC7772B3DC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BFEBCB8507EEC24227AFD200613ABCB /* ItunesSearch-dummy.m in Sources */,
-				2C38FFFBC20FC3727D6A469356F8D966 /* ReplaceMe.swift in Sources */,
+				1D03E77DD829A1763C55AADF797FA342 /* ItunesSearch-dummy.m in Sources */,
+				1D74C7A8180F48E9B08AE053DE7FD565 /* ItunesSearchManager.swift in Sources */,
+				49CDB3F0ED21CBE89F1150091B180544 /* LyricsSearchManager.swift in Sources */,
+				B2456787DA3B375256FE041D11FE9898 /* RecentSearchManager.swift in Sources */,
+				783912ED070593E8B9E245CB734989B8 /* Song.swift in Sources */,
+				8052BE003A6A59593B02D686074208A9 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0A6F080FDCA8595327C4D986BC153AC /* Sources */ = {
+		5C6F11B811E78E709FC5CB2C1D379600 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013B5B8C0ECC4FFC21D9A5B55444775D /* Pods-ItunesSearch_Tests-dummy.m in Sources */,
+				45349EB0A9FEF3D6D32B6D73FACC4F5F /* Pods-ItunesSearch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3D9E97CFD615EE2F8BDAD9CDFC30A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FD9C19A970B77ECD0AEE40FA6BC7D7 /* CSS.swift in Sources */,
+				DFF222D02B69EF0A3428295AADC32210 /* Kanna-dummy.m in Sources */,
+				906545D1143F1F14A53409EB717B6309 /* Kanna.swift in Sources */,
+				1E46904920F3036445EAEE9FC36BFE7E /* libxmlHTMLDocument.swift in Sources */,
+				143F50C6D82CB3E24A4E4814EFA9334F /* libxmlHTMLNode.swift in Sources */,
+				EF65D10E68B741A8F03A14D2CEACA30D /* libxmlParserOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AC2EE3B3B97C81D48B4C1516C26A5973 /* PBXTargetDependency */ = {
+		4AD2C3C38A446E7E9C09C601B6880CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kanna;
+			target = EF415F619E9DDF8BD2182AFA3BAD4BF9 /* Kanna */;
+			targetProxy = 78800E5E98250132BA8E59B8E7713A53 /* PBXContainerItemProxy */;
+		};
+		A95C4B592E7B52393A3433A4795263D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ItunesSearch;
-			target = F2711800DF085B4F87A25B6CB51FA811 /* ItunesSearch */;
-			targetProxy = AE26F55EB5F9511949665EE739D6DACA /* PBXContainerItemProxy */;
+			target = C3FB36535908AA8A3351114732F4D659 /* ItunesSearch */;
+			targetProxy = 1D2223C0E549821541CEB001798ED07F /* PBXContainerItemProxy */;
+		};
+		EE9FF0C3E7D34B5A8476D2B0EA87A14C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kanna;
+			target = EF415F619E9DDF8BD2182AFA3BAD4BF9 /* Kanna */;
+			targetProxy = 9C052758A5E7D31787210658F7F52BD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		56DA6B1E41B1797CFCF70E21EE89EDDF /* Release */ = {
+		0B0D6BD73EFDFB0AEA8517D8F1A92D4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8026AD6BE4F3604948FF755CEC84B24 /* ItunesSearch.xcconfig */;
+			baseConfigurationReference = 186008AB1BC589B1F13A5B198CB777F0 /* Pods-ItunesSearch_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -317,64 +565,27 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ItunesSearch/ItunesSearch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ItunesSearch/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ItunesSearch_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ItunesSearch/ItunesSearch.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ItunesSearch_Tests/Pods-ItunesSearch_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ItunesSearch;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ItunesSearch_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,7 +621,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -418,7 +629,39 @@
 			};
 			name = Debug;
 		};
-		DC4A9D9BF310C350B5E48A6173069B7A /* Debug */ = {
+		4842AE1AE4AE47014541F7361982AF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBDBFB4BDD7213CC2599A077703318B /* Kanna.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B6ECBBE32F206858548936FE363A88B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8026AD6BE4F3604948FF755CEC84B24 /* ItunesSearch.xcconfig */;
 			buildSettings = {
@@ -436,7 +679,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ItunesSearch/ItunesSearch-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ItunesSearch/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ItunesSearch/ItunesSearch.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -451,9 +694,9 @@
 			};
 			name = Debug;
 		};
-		E8B9CFE68AA45146F187DA954688455B /* Release */ = {
+		4EDD2F130F2A9CB8C79BB26D6D45E103 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 186008AB1BC589B1F13A5B198CB777F0 /* Pods-ItunesSearch_Tests.release.xcconfig */;
+			baseConfigurationReference = E8026AD6BE4F3604948FF755CEC84B24 /* ItunesSearch.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -466,18 +709,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ItunesSearch_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ItunesSearch/ItunesSearch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ItunesSearch/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ItunesSearch_Tests/Pods-ItunesSearch_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ItunesSearch/ItunesSearch.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ItunesSearch_Tests;
+				PRODUCT_NAME = ItunesSearch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -487,7 +726,80 @@
 			};
 			name = Release;
 		};
-		FD6977981FB1B1110371439EB83F2535 /* Debug */ = {
+		75464067FFF782322124892669C894A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBDBFB4BDD7213CC2599A077703318B /* Kanna.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF218A521175136D58DE4D481CAE95D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8CA32784AD673AA2E62E46706F39B70 /* Pods-ItunesSearch_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -504,7 +816,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ItunesSearch_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ItunesSearch_Tests/Pods-ItunesSearch_Tests.modulemap";
@@ -517,7 +829,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -530,26 +841,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B41EABAF3D4A00A5968CFDB3FFEC7E8F /* Build configuration list for PBXNativeTarget "ItunesSearch" */ = {
+		86EF00DC340C0BDE270C2687BD3856F3 /* Build configuration list for PBXNativeTarget "Kanna" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC4A9D9BF310C350B5E48A6173069B7A /* Debug */,
-				56DA6B1E41B1797CFCF70E21EE89EDDF /* Release */,
+				75464067FFF782322124892669C894A3 /* Debug */,
+				4842AE1AE4AE47014541F7361982AF82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D54141B45AE1E9B7D4CEFE921F8448E5 /* Build configuration list for PBXNativeTarget "Pods-ItunesSearch_Tests" */ = {
+		A6A58C7D640FE4F57C0D3D059D1A9EB9 /* Build configuration list for PBXNativeTarget "Pods-ItunesSearch_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD6977981FB1B1110371439EB83F2535 /* Debug */,
-				E8B9CFE68AA45146F187DA954688455B /* Release */,
+				EF218A521175136D58DE4D481CAE95D9 /* Debug */,
+				0B0D6BD73EFDFB0AEA8517D8F1A92D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7960CC2D8603EC511CB5C00B725484 /* Build configuration list for PBXNativeTarget "ItunesSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6ECBBE32F206858548936FE363A88B /* Debug */,
+				4EDD2F130F2A9CB8C79BB26D6D45E103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
