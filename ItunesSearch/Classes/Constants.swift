@@ -20,5 +20,5 @@ struct Constants {
     static let lyricsXPath:String = "//div[contains(@class, 'lyricbox')]"
     static let methodGet:String = "GET"
     static let recentSearchArchiveKey:String = "recentSearches"
-    static let recentSearchArchiveSeperator:String = "#"
+    static let recentSearchArchiveSeperator:Character = "#"
 }
