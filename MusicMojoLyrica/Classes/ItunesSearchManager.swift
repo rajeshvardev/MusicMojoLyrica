@@ -8,25 +8,38 @@
 
 import UIKit
 
+
+
+//MARK:- ItunesSearchManagerProtocol
 public protocol ItunesSearchManagerProtocol {
+    //delegate method for fetch completion
     func getSongsWhenDataTaskCompleted(songs:[Song])
+    //delegte method for failiure
     func getSongDataTaskError(error:NSError)
 }
 
-
+//MARK:- ItunesSearchManager
 public class ItunesSearchManager: NSObject {
     
     public  var delegate: ItunesSearchManagerProtocol!
     
     var count:Int=0
     
+    /*!
+     * @method -fetchMusicListFromiTunes
+     *
+     * @discussion
+     * search param track name ,artist etc
+     *
+     *
+     */
     public func fetchMusicListFromiTunes(param:String) -> URLSessionDataTask
     {
         let urlString = Constants.itunesUrl//?term=" + searchParam
         var urlComps = URLComponents(string:urlString)
         let queryItems = [URLQueryItem(name: Constants.itunesUrlTermParam, value: param)]
         urlComps?.queryItems = queryItems
-
+        
         let url = urlComps?.url
         var request = URLRequest(url: url!)
         request.httpMethod = Constants.methodGet

@@ -9,9 +9,12 @@
 import UIKit
 import Kanna
 
+//MARK:- LyricsSearchManagerProtocol
 public protocol LyricsSearchManagerProtocol
 {
+    //delegate method for lyrics fetch complete
     func lyricsFound(lyrics:String)
+    //delegate method for lyrics fetch error
     func lyricsError(error:Error)
 }
 
@@ -20,9 +23,22 @@ enum LyricsError:Error
     case noLyrics
 }
 
+
+//MARK:- LyricsSearchManager
 public class LyricsSearchManager: NSObject {
     
     public var delegate:LyricsSearchManagerProtocol!
+    
+    
+    /*!
+     * @method -fetchMusicListFromiTunes
+     *
+     * @discussion
+     *  Method to fetch lyrics  from lyrics.wikia
+     *
+     *  There is a problem of lyrics text formating , the line breaks are gone
+     */
+    
     public func fetchLyricsForTrack(artist:String,song:String) -> URLSessionDataTask
     {
         //try to find a different api for the lyrics

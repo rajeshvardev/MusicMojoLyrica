@@ -5,13 +5,13 @@
 //  Created by RAJESH SUKUMARAN on 10/16/16.
 //  Copyright © 2016 RAJESH SUKUMARAN. All rights reserved.
 //
+//  Class to handle recent searches
 
 import UIKit
-
 public class RecentSearchManager: NSObject {
     
-    var recents:String
-    var recentSearches:[String]
+    public var recents:String
+    public var recentSearches:[String]
     
     override init() {
         recents = ""
@@ -30,22 +30,31 @@ public class RecentSearchManager: NSObject {
     public func savePrefernce()
     {
         UserDefaults.standard.set(self.recents, forKey: Constants.recentSearchArchiveKey)
+        UserDefaults.standard.synchronize()
     }
     
     public func clearPreference()
     {
         self.recents = ""
         UserDefaults.standard.set(self.recents, forKey: Constants.recentSearchArchiveKey)
+        UserDefaults.standard.synchronize()
+        getPreference()
     }
     
     public func readPreference() -> [String]
     {
-        return recentSearches
+        return recentSearches.reversed()
     }
     func getPreference()
     {
         self.recents = (UserDefaults.standard.string(forKey: Constants.recentSearchArchiveKey) != nil) ? UserDefaults.standard.string(forKey: Constants.recentSearchArchiveKey)! : ""
-        self.recentSearches = recents.characters.split(separator: Constants.recentSearchArchiveSeperator.characters.first!).map(String.init)
+        let recent = recents.characters.split(separator: Constants.recentSearchArchiveSeperator.characters.first!).map(String.init)
+//        var recentReversed:[String] = []
+//        for arrayIndex in stride(from:recent.count-1 ,through: 0, by: -1) {
+//            recentReversed.append(recent[arrayIndex])
+//        }
+        
+        self.recentSearches = recent.reversed()
     }
     public func addPrefernce(search:String)
     {

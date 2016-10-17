@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DCFF701DB5747D00CC623F /* RecentSearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCFF6F1DB5747D00CC623F /* RecentSearchTest.swift */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		99438773FDE1791F731BA1D6 /* Pods_ItunesSearch_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A16814670459C549BB61E6F /* Pods_ItunesSearch_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18DCFF6F1DB5747D00CC623F /* RecentSearchTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentSearchTest.swift; sourceTree = "<group>"; };
 		3A16814670459C549BB61E6F /* Pods_ItunesSearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItunesSearch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		605E99FEE0CA97DF59EE567C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ItunesSearch_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItunesSearch_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				18DCFF6F1DB5747D00CC623F /* RecentSearchTest.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DCFF701DB5747D00CC623F /* RecentSearchTest.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
