@@ -76,8 +76,6 @@ public class LyricsSearchManager: NSObject {
                         // there is an issue of text formatting
                         for element in nodes {
                             let lyricsString = element.text!
-                            print("==================================================================================================================================================================================================")
-                            print(lyricsString)
                             self.delegate.lyricsFound(lyrics: lyricsString)
                         }
                         
