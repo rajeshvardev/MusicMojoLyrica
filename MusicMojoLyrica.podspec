@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-s.source_files = 'ItunesSearch/Classes/**/*.swift'
+s.source_files = 'MusicMojoLyrica/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'ItunesSearch' => ['ItunesSearch/Assets/*.png']
