@@ -55,7 +55,7 @@ class Tests: XCTestCase {
         delegate.asyncExpectation = expectation1
         let manager = LyricsSearchManager()
         manager.delegate = delegate
-        let _ = manager.fetchLyricsForTrack(artist: "K. J. Yesuda", song: "Gori Tera Gaon Bada Pyara")
+        let _ = manager.fetchLyricsForTrack(artist: "Kesha", song: "Tik Tok")
         //let _ = manager.fetchLyricsForTrack(artist: "Kesha", song: "Tik Tok")
         self.waitForExpectations(timeout: 1) { error in
             if let error = error {
@@ -77,6 +77,7 @@ class Tests: XCTestCase {
             
             
             XCTAssertNotNil(result)
+            print(result)
         }
             }
     

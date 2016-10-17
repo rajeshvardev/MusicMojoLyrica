@@ -104,8 +104,8 @@ public class LyricsSearchManager: NSObject {
                          */
                         // there is an issue of text formatting
                         for element in nodes {
-                            let lyricsString = element.text!
-                            self.delegate.lyricsFound(lyrics: lyricsString)
+                            let lyricsString = element.innerHTML!
+                            self.delegate.lyricsFound(lyrics: Utils.sanitiseLyrics(key: lyricsString))
                         }
                         
                         

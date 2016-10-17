@@ -24,5 +24,11 @@ class Utils
         {return nil}
         
     }
+    static func sanitiseLyrics(key:String) -> String
+    {
+        var returnString = key.replacingOccurrences(of: "<br>", with: "\n")
+        returnString = returnString.replacingOccurrences(of: "<div class=\"lyricsbreak\"></div>", with: "\n")
+        return returnString
+    }
 }
 
