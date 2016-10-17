@@ -22,7 +22,7 @@ pod "ItunesSearch"
 
 ## Author
 
-rajeshSukumaran@ForNationWide, rajesh.sukumaran@photoninfotech.net
+rajeshSukumaran, rajesh.sukumaran@photoninfotech.net
 
 ## License
 
