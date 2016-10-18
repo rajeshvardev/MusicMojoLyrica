@@ -27,11 +27,12 @@ class RecentSearchTest: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let recentsM = RecentSearchManager.sharedInstance
-        recentsM.clearPreference()
-        recentsM.addPrefernce(search: "Rajesh")
-        recentsM.addPrefernce(search: "Dave")
+        //recentsM.clearPreference()
+        //recentsM.addPrefernce(search: "Rajesh")
+        //recentsM.addPrefernce(search: "Dave")
+        //recentsM.addPrefernce(search: "Rihanna")
         let recents = recentsM.readPreference()
-        XCTAssertEqual(recents.first, "Dave")
+        XCTAssertEqual(recents.first, "Rihanna")
         
     }
     
