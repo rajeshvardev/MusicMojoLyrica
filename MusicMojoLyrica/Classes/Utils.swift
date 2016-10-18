@@ -30,6 +30,9 @@ class Utils
         returnString = returnString.replacingOccurrences(of: "<div class=\"lyricsbreak\"></div>", with: "\n")
         returnString = returnString.replacingOccurrences(of: "<i>", with: "")
         returnString = returnString.replacingOccurrences(of: "</i>", with: "")
+        returnString = returnString.replacingOccurrences(of: "</b>", with: "")
+        returnString = returnString.replacingOccurrences(of: "<b>", with: "")
+        returnString = returnString.replacingOccurrences(of: "&amp;", with: "&")
         return returnString
     }
 }
