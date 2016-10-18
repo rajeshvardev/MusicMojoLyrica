@@ -37,7 +37,7 @@ public class ItunesSearchManager: NSObject {
      *
      * @discussion
      * search param track name ,artist etc
-     *
+     * Can use some abstracted framework like alamofire ,if there are more number of network calls
      *
      */
     public func fetchMusicListFromiTunes(param:String) -> URLSessionDataTask?

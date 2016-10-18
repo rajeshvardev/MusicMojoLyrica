@@ -38,6 +38,7 @@ public class LyricsSearchManager: NSObject {
      *  Method to fetch lyrics  from lyrics.wikia
      *
      *  There is a problem of lyrics text formating , the line breaks are gone
+     *  Can use some abstracted framework like alamofire ,if there are more number of network calls
      */
     
     public func fetchLyricsForTrack(artist:String,song:String) -> URLSessionDataTask?
