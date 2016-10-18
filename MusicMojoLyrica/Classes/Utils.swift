@@ -29,6 +29,7 @@ class Utils
         var returnString = key.replacingOccurrences(of: "<br>", with: "\n")
         returnString = returnString.replacingOccurrences(of: "<div class=\"lyricsbreak\"></div>", with: "\n")
         returnString = returnString.replacingOccurrences(of: "<i>", with: "")
+        returnString = returnString.replacingOccurrences(of: "</i>", with: "")
         return returnString
     }
 }
