@@ -54,7 +54,7 @@ public class RecentSearchManager: NSObject {
         //            recentReversed.append(recent[arrayIndex])
         //        }
         
-        self.recentSearches = recent.reversed()
+        self.recentSearches = recent
     }
     public func addPrefernce(search:String)
     {
@@ -63,7 +63,7 @@ public class RecentSearchManager: NSObject {
             self.recentSearches.remove(at: self.recentSearches.index(of: search)!)
         }
         self.recentSearches.append(search)
-        self.recents = self.recentSearches.reversed().joined(separator: Constants.recentSearchArchiveSeperator)
+        self.recents = self.recentSearches.joined(separator: Constants.recentSearchArchiveSeperator)
         self.savePrefernce()
     }
     

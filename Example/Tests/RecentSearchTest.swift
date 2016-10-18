@@ -30,9 +30,9 @@ class RecentSearchTest: XCTestCase {
         //recentsM.clearPreference()
         //recentsM.addPrefernce(search: "Rajesh")
         //recentsM.addPrefernce(search: "Dave")
-        //recentsM.addPrefernce(search: "Rihanna")
+        recentsM.addPrefernce(search: "Chitra")
         let recents = recentsM.readPreference()
-        XCTAssertEqual(recents.first, "Rihanna")
+        XCTAssertEqual(recents.first, "Chitra")
         
     }
     
