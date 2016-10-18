@@ -6,7 +6,7 @@ import MusicMojoLyrica
 class testLyrics: LyricsSearchManagerProtocol {
     var lyric:String!
     var err:Error!
-     var asyncExpectation: XCTestExpectation?
+    var asyncExpectation: XCTestExpectation?
     func test()
     {
         let lyricManager = LyricsSearchManager()
@@ -21,7 +21,7 @@ class testLyrics: LyricsSearchManagerProtocol {
             return
         }
         expectation.fulfill()
-
+        
     }
     func lyricsError(error:Error)
     {
@@ -32,7 +32,7 @@ class testLyrics: LyricsSearchManagerProtocol {
         }
         expectation.fulfill()
     }
-
+    
 }
 
 class Tests: XCTestCase {
@@ -47,7 +47,7 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testSuccessLyricsFetch() {
         // This is an example of a functional test case.
         let expectation1 = expectation(description: "delegate called")
         
@@ -66,9 +66,29 @@ class Tests: XCTestCase {
                 XCTFail("Expected delegate to be called")
                 return
             }
-            if let _ = delegate.err
+            
+            
+            XCTAssertNotNil(result)
+            print(result)
+        }
+    }
+    
+    
+    func testFiledLyrics()
+    {
+        // This is an example of a functional test case.
+        let expectation1 = expectation(description: "delegate called")
+        
+        let delegate = testLyrics()
+        delegate.asyncExpectation = expectation1
+        let manager = LyricsSearchManager()
+        manager.delegate = delegate
+        let _ = manager.fetchLyricsForTrack(artist: "K. J. Yesudas", song: "Gore Tera Gaon Bada Pyara")
+        //let _ = manager.fetchLyricsForTrack(artist: "Kesha", song: "Tik Tok")
+        self.waitForExpectations(timeout: 1) { error in
+            if let errorD = delegate.err
             {
-                XCTFail("Error Delegate called")
+                XCTAssertNotNil(errorD.localizedDescription)
                 
             }else {
                 XCTAssert(true)
@@ -76,10 +96,9 @@ class Tests: XCTestCase {
             }
             
             
-            XCTAssertNotNil(result)
-            print(result)
         }
-            }
+        
+    }
     
     
     func testPerformanceExample() {

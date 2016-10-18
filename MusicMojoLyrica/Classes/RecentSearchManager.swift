@@ -10,8 +10,8 @@
 import UIKit
 public class RecentSearchManager: NSObject {
     
-    public var recents:String
-    public var recentSearches:[String]
+    var recents:String
+    var recentSearches:[String]
     
     override init() {
         recents = ""
@@ -49,10 +49,10 @@ public class RecentSearchManager: NSObject {
     {
         self.recents = (UserDefaults.standard.string(forKey: Constants.recentSearchArchiveKey) != nil) ? UserDefaults.standard.string(forKey: Constants.recentSearchArchiveKey)! : ""
         let recent = recents.characters.split(separator: Constants.recentSearchArchiveSeperator.characters.first!).map(String.init)
-//        var recentReversed:[String] = []
-//        for arrayIndex in stride(from:recent.count-1 ,through: 0, by: -1) {
-//            recentReversed.append(recent[arrayIndex])
-//        }
+        //        var recentReversed:[String] = []
+        //        for arrayIndex in stride(from:recent.count-1 ,through: 0, by: -1) {
+        //            recentReversed.append(recent[arrayIndex])
+        //        }
         
         self.recentSearches = recent.reversed()
     }

@@ -5,11 +5,9 @@
 //  Created by RAJESH SUKUMARAN on 10/13/16.
 //  Copyright © 2016 RAJESH SUKUMARAN. All rights reserved.
 //
+//  Model Class for Songs from Itunes
 
 import Foundation
-
-
-
 
 
 public class Song:NSObject
@@ -46,4 +44,4 @@ public class Song:NSObject
     public var primaryGenreName:String!     // Rock,
     public var isStreamable:Bool!     // true
     
-    }
+}
